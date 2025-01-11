@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Problem3{
+	public static void main(String[] args){
+		
+	Scanner scanner = new Scanner(System.in);
+
+	System.out.print("Enter three First Number1: ");
+      	  int num1 = scanner.nextInt();
+
+	System.out.print("Enter three First Number2: ");
+     	   int num2 = scanner.nextInt();
+
+	System.out.print("Enter three First Number3: ");
+     	    int num3 = scanner.nextInt();
+
+	 System.out.println("Is the first number the largest? " + (num1 > num2 && num1 > num3 ? "Yes" : "No"));
+        System.out.println("Is the second number the largest? " + (num2 > num1 && num2 > num3 ? "Yes" : "No"));
+        System.out.println("Is the third number the largest? " + (num3 > num1 && num3 > num2 ? "Yes" : "No"));
+	}
+}
