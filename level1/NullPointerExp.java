@@ -9,11 +9,11 @@ public class NullPointerExp{
 		public static void handleNullPointerExp(){
 			String s = null;
 			try{
-			System.out.println("Handling the null pointer exception");
+			System.out.println(" Caught the null pointer exception");
 			System.out.println(s.length());
 			}
 			catch(NullPointerException e){
-				System.out.println("Caught a null pointer exception");
+				System.out.println(" Handling a null pointer exception");
 			}
 		}
 		
